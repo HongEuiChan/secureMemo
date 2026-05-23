@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+
+    <application
+        android:allowBackup="false"
+        android:label="SecureMemo"
+        android:icon="@android:mipmap/sym_def_app_icon"
+        android:theme="@style/Theme.SecureMemo">
+
+        <activity
+            android:name="com.ecsoft.securememo.ui.IntroActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.ecsoft.securememo.ui.TermsActivity" android:exported="false" />
+        <activity android:name="com.ecsoft.securememo.ui.PermissionActivity" android:exported="false" />
+        <activity android:name="com.ecsoft.securememo.ui.LoginActivity" android:exported="false" />
+        <activity android:name="com.ecsoft.securememo.ui.MainActivity" android:exported="false" />
+
+    </application>
+</manifest>

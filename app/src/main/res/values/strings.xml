@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">SecureMemo</string>
+    <string name="intro_title">Secure Memo</string>
+    <string name="copy">복사</string>
+    <string name="edit">수정</string>
+    <string name="delete">삭제</string>
+    <string name="add">등록</string>
+    <string name="save">저장</string>
+    <string name="cancel">취소</string>
+    <string name="title_hint">이름 (서비스/카드명)</string>
+    <string name="id_hint">아이디</string>
+    <string name="pw_hint">비밀번호</string>
+    <string name="token_hint">토큰</string>
+    <string name="card_num_hint">카드 번호</string>
+    <string name="cvc_hint">CVC</string>
+    <string name="memo_hint">내용</string>
+    <string name="add_memo_title">보안 항목 등록</string>
+    <string name="edit_memo_title">보안 항목 수정</string>
+    <string name="copied_to_clipboard">클립보드에 복사되었습니다.</string>
+
+    <string-array name="note_types">
+        <item>아이디/암호</item>
+        <item>토큰</item>
+        <item>카드</item>
+        <item>일반 메모</item>
+    </string-array>
+</resources>
